@@ -8,8 +8,3 @@ link-checker-results.txt
 *.js.map
 _test-output
 _temp
-
-!**/*e2e-spec.js
-!karma*.js
-!protractor*.js
-!wallaby.js
