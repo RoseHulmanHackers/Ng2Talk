@@ -1,15 +1,19 @@
-# Angular 2 QuickStart Source (modified by Tyler Rockwood)
+# Angular 2 QuickStart Source 
+
+**Modified by Tyler Rockwood**
 
 This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
 the foundation for most of the documentation samples and potentially a good starting point for your application.
 
-It's been extended with testing support so you can start writing tests immediately.
-
 **This is not the perfect arrangement for your application. It is not designed for production. 
 It exists primarily to get you started quickly with learning and prototyping in Angular 2**
 
-We are unlikely to accept suggestions about how to grow this QuickStart into something it is not.
-Please keep that in mind before posting issues and PRs.
+## Things you'll need to start
+
+* [Node installed](https://nodejs.org/en/)
+* A command line ([GitBash](https://git-for-windows.github.io/) if you're a Windows Developer) with the ability to run `npm`.
+* A text editor/IDE _like_ [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/) or [WebStorm](https://www.jetbrains.com/webstorm/).
+* A brain with former Web Development experience (just anything really)
 
 ## Create a new project based on the QuickStart
 
@@ -26,7 +30,7 @@ rm -rf .git
 ```
 
 ### Create a new git repo
-You could [start writing code](#start-development) now and throw it all away when you're done.
+You could [start writing code](#intall-npm-packages) now and throw it all away when you're done.
 If you'd rather preserve your work under source control, consider taking the following steps.
 
 Initialize this project as a *local git repo* and make the first commit:
