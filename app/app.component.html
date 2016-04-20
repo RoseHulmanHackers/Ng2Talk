@@ -1,1 +1,4 @@
-<h1>My First Angular 2 App</h1>
+<guess-component [title]="title" (onFire)="makeGuess($event)"></guess-component>
+<p>You current word is: {{game.getDisplayWord()}}</p>
+<p>You have made {{game.getWrongGuesses()}} wrong guesses.</p>
+<button class="btn" (click)="newGame()">New Game</button>

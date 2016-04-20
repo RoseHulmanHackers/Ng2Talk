@@ -1,0 +1,4 @@
+<h1>{{title}}</h1>
+<input [(ngModel)]="guess" (keyup.enter)="makeGuess()">
+<p>You guessed: {{guess}}</p>
+<button class="btn" (click)="makeGuess()">Make Guess</button>
