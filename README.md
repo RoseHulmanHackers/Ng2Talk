@@ -8,6 +8,8 @@ the foundation for most of the documentation samples and potentially a good star
 **This is not the perfect arrangement for your application. It is not designed for production. 
 It exists primarily to get you started quickly with learning and prototyping in Angular 2**
 
+Check out the solution branch for the finished code after the talk! :smiley:
+
 ## Things you'll need to start
 
 * [Node installed](https://nodejs.org/en/)
@@ -19,7 +21,7 @@ It exists primarily to get you started quickly with learning and prototyping in 
 
 Clone this repo into new project folder (e.g., `hangman`).
 ```bash
-git clone  https://github.com/angular/quickstart hangman
+git clone  https://github.com/RoseHulmanHackers/Ng2Talk hangman
 cd my-proj
 ```
 
